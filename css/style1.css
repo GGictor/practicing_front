@@ -1,0 +1,21 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.nav_header {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 30px 0px ;
+}
+
+.opciones-header{
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; /*le quita lo subrayado a las palabras*/
+}
+
