@@ -1,0 +1,64 @@
+.google_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
+
+.google_logo img{
+    padding-top: 108px;
+    width: 250px;
+    height: 100px;
+}
+
+.searchBar_Container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.searchBar_Input_Container{
+    display: grid;
+    grid-template-columns: 50px 480px 50px;
+    grid-template-rows: 46px;
+    grid-template-areas: " searchBar search_box microphone";
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.searchBar{
+    grid-area: searchBar;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 1px;
+    border-right: none;
+    color: #9AA0A6;
+    border-radius: 100px 0px 0px 100px;
+}
+
+.search_box{
+    grid-area: search_box;
+    border-top: #dfe1e5 solid 1px ;
+    border-bottom:#dfe1e5 solid 1px ;
+    border-left: none;
+    height: 100%;
+    position: relative;
+}
+
+.microphone{
+    grid-area: microphone;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #dfe1e5 solid 1px;
+    border-left: none;
+    border-radius: 0px 100px 100px 0px;
+  }
+
